@@ -1,12 +1,14 @@
-
+//defindo cor branca para variável
 $cor-branca: white;
 $raio: 0.3em;
 
+//criando mixin para agrupara raio nas bordas
 @mixin borda-arredondada($raio: 0.3em) {
   -webkit-border-radius: $raio;
   border-radius: $raio;
 }
 
+//mixin para sobra padrão
 @mixin sombra-padrao {
   -webkti-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
